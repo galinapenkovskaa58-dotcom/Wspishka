@@ -13,7 +13,7 @@ export function MainScreen() {
         <img
           src="/brand-logo.png"
           alt="Дизайн без названия"
-          className="absolute right-4 top-4 h-20 w-20 rounded-full object-cover ring-1 ring-white/20"
+          className="absolute right-4 h-20 w-20 rounded-full object-cover ring-1 ring-white/20"
         />
         <p className="text-xs uppercase tracking-[0.24em] text-neonCyan/85">DreamStudio</p>
         <h1 className="mt-2 text-2xl font-semibold leading-tight">Вспышка</h1>
