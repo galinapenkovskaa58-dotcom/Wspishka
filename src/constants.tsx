@@ -27,23 +27,23 @@ export const mainMenuMock: MenuItem[] = [
 export const tariffsMock: TariffPreview[] = [
   {
     id: "start",
-    title: "Start",
+    title: "Стандарт",
     description: "Быстрый вход в нейрофотосессию",
-    price: "от 2 900 ₽",
+    price: "5 000 ₽",
     accent: "blue"
   },
   {
     id: "signature",
-    title: "Signature",
+    title: "PRO",
     description: "Главный пакет для яркого образа",
-    price: "от 5 900 ₽",
+    price: "7 000 ₽",
     accent: "violet"
   },
   {
     id: "muse",
-    title: "Muse",
+    title: "VIP",
     description: "Премиум-сценарий с персональным стилем",
-    price: "от 9 900 ₽",
+    price: "9 500 ₽",
     accent: "pink"
   }
 ];
