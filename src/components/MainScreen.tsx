@@ -13,7 +13,7 @@ export function MainScreen() {
         <p className="text-xs uppercase tracking-[0.24em] text-neonCyan/85">DreamStudio</p>
         <h1 className="mt-2 text-2xl font-semibold leading-tight">Вспышка</h1>
         <p className="mt-2 text-sm text-slate-300">
-          Премиальный AI-ассистент для записи на нейрофотосессию в стиле неон.
+          Премиальный AI-ассистент для записи на нейрофотосессию.
         </p>
       </section>
 
