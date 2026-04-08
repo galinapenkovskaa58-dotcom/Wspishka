@@ -9,7 +9,12 @@ const accentClass = {
 export function MainScreen() {
   return (
     <main className="mx-auto flex min-h-dvh w-full max-w-md flex-col gap-5 px-4 pb-8 pt-6 text-white">
-      <section className="animate-soft-fade rounded-2xl border border-white/10 bg-white/5 p-5 shadow-glowBlue backdrop-blur-xl">
+      <section className="relative animate-soft-fade rounded-2xl border border-white/10 bg-white/5 p-5 pr-32 shadow-glowBlue backdrop-blur-xl">
+        <img
+          src="/brand-logo.png"
+          alt="Дизайн без названия"
+          className="absolute right-4 top-4 h-20 w-20 rounded-full object-cover ring-1 ring-white/20"
+        />
         <p className="text-xs uppercase tracking-[0.24em] text-neonCyan/85">DreamStudio</p>
         <h1 className="mt-2 text-2xl font-semibold leading-tight">Вспышка</h1>
         <p className="mt-2 text-sm text-slate-300">
